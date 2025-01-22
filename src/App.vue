@@ -45,5 +45,6 @@ export default {
   <!-- <a v-bind:href="link">Google</a> -->
   <a :href="link">Google</a>
   <br>
-  <button v-on:click="toggleStatus">Toggle Status</button>
+  <!-- <button v-on:click="toggleStatus">Toggle Status</button> -->
+  <button @click="toggleStatus">Toggle Status</button>
 </template>
